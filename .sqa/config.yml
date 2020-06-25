@@ -1,6 +1,6 @@
 config:
   project_repos:
-    myrepo:
+    deepaas:
       repo: 'https://github.com/eosc-synergy/DEEPaaS'
 
 sqa_criteria:

@@ -1,1 +1,10 @@
 version: "3.6"
+
+services:
+  DEEPaaS-testing:
+    image: "indigodatacloud/ci-images:python3.6"
+    hostname: "deepaas-testing"
+    volumes:
+     - type: bind
+       source: ./deepaas
+       target: /deepaas-testing

@@ -12,15 +12,6 @@ sqa_criteria:
           tox_file: /deepaas-testing/tox.ini
           testenv:
             - pep8
-  qc_coverage:
-    repos:
-      deepaas:
-        container: DEEPaaS-testing
-        tox:
-          tox_file: /deepaas-testing/tox.ini
-          testenv: 
-            - cover
-            - cobertura
   qc_security:
     repos:
       deepaas:

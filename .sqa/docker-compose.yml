@@ -8,3 +8,4 @@ services:
      - type: bind
        source: ./deepaas
        target: /deepaas-testing
+    working_dir: /deepaas-testing

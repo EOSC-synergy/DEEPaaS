@@ -1,22 +1,14 @@
-config:
-  project_repos:
-    deepaas:
-      repo: 'https://github.com/eosc-synergy/DEEPaaS'
-
 sqa_criteria:
   qc_style:
     repos:
       deepaas:
         container: DEEPaaS-testing
         tox:
-          tox_file: /deepaas-testing/tox.ini
-          testenv:
-            - pep8
+          testenv: []
   qc_security:
     repos:
       deepaas:
         container: DEEPaaS-testing
         tox:
-          tox_file: /deepaas-testing/tox.ini
           testenv:
             - bandit

@@ -4,6 +4,7 @@ sqa_criteria:
       deepaas:
         container: DEEPaaS-testing
         tox:
+          tox_file: 'tox.ini'
           testenv: []
   qc_security:
     repos:

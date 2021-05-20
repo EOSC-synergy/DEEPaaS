@@ -1,4 +1,4 @@
-@Library(['github.com/indigo-dc/jenkins-pipeline-library@release/2.1.0']) _
+@Library(['github.com/indigo-dc/jenkins-pipeline-library@fix/tox_builder_143']) _
 
 def projectConfig
 
